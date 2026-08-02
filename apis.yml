@@ -1,7 +1,29 @@
 aid: textsidekick
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/textsidekick.png
 name: Textsidekick
-description: Textsidekick is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Textsidekick (Sidekick) is a Y Combinator-backed (S26) workforce communication
+  and knowledge-management platform built for frontline workers who do not have a
+  desk. Workers text a question or report an issue over plain SMS with no app to
+  install and no login; Sidekick triages the message, answers from company
+  knowledge, converts issues into work orders, routes them to the right person,
+  and captures every fix as searchable organizational knowledge. It also
+  AI-generates safety procedures, handbooks, and FAQs, schedules preventive
+  maintenance, and delivers text-based onboarding and training. Founded to serve
+  the roughly 80% of American workers without a desk, it is live across 20+ plants
+  serving 600+ frontline workers. No public developer API, SDK, or API reference
+  is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/textsidekick/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- SMS
+- Frontline Workers
+- Workforce Communication
+- Knowledge Management
+- Work Orders
+- Artificial Intelligence
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/textsidekick-domain-security.yml
+- type: Website
+  url: https://textsidekick.com
+- type: Blog
+  url: https://textsidekick.substack.com/
+- type: PrivacyPolicy
+  url: https://textsidekick.com/privacy
+- type: TermsOfService
+  url: https://textsidekick.com/terms
+- type: Login
+  url: https://textsidekick.com/login
+- type: Support
+  url: mailto:hello@textsidekick.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
