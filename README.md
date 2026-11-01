@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Textsidekick is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Textsidekick (Sidekick) is a Y Combinator-backed (S26) workforce communication and knowledge-management platform built for frontline workers who do not have a desk. Workers text a question or report an issue over plain SMS with no app to install and no login; Sidekick triages the message, answers from company knowledge, converts issues into work orders, routes them to the right person, and captures every fix as searchable organizational knowledge. It also AI-generates safety procedures, handbooks, and FAQs, schedules preventive maintenance, and delivers text-based onboarding and training. Founded to serve the roughly 80% of American workers without a desk, it is live across 20+ plants serving 600+ frontline workers. No public developer API, SDK, or API reference is published at this time.
 
-Backed by: y-combinator
+**Areas:** Company · SMS · Frontline Workers · Workforce Communication · Knowledge Management · Work Orders · Artificial Intelligence · Y Combinator
+
+## Textsidekick on APIs.io
+
+Everything profiled for Textsidekick is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/textsidekick/](https://apis.io/providers/textsidekick/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Textsidekick Domain Security](https://apis.io/security/textsidekick/textsidekick-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://textsidekick.com)
+- [Blog](https://textsidekick.substack.com/)
+- [Terms of service](https://textsidekick.com/terms)
+- [Privacy policy](https://textsidekick.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/textsidekick/](https://apis.io/providers/textsidekick/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Textsidekick: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/textsidekick/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
